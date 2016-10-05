@@ -9,8 +9,7 @@ deploy:
   secret_access_key: ${AWS_SECRET_ACCESS_KEY}
   bucket: "takatsu-travisci"
   skip_cleanup: true
-  on:
-    branches: ${TRAVIS_BRANCH}
+  upload-dir: ${TRAVIS_BRACH}/${TRAVIS_BUILD_NUMBER}
 
 notifications:
   slack: travis-ci-takatsuji:lQnY4FuwYnhOPNh7egoZXbtb
