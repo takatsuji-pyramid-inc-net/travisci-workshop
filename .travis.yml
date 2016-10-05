@@ -2,3 +2,6 @@ language: java
 
 script:
   - java -jar ./bin/yuicompressor-2.4.8.jar ./css/a.css
+
+notifications:
+  slack: travis-ci-takatsuji:lQnY4FuwYnhOPNh7egoZXbtb
