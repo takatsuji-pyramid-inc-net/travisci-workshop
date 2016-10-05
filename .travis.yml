@@ -8,6 +8,7 @@ deploy:
   access_key_id: ${AWS_ACCESS_KEY_ID}
   secret_access_key: ${AWS_SECRET_ACCESS_KEY}
   bucket: "takatsu-travisci"
+  skip_cleanup: true
 
 notifications:
   slack: travis-ci-takatsuji:lQnY4FuwYnhOPNh7egoZXbtb
