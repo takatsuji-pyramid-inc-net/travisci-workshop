@@ -5,8 +5,8 @@ script:
 
 deploy:
   provider: s3
-  access_key_id: "AKIAISE6DV3IMDH3GDGQ"
-  secret_access_key: "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"
+  access_key_id: $(AWS_ACCESS_KEY_ID)
+  secret_access_key: $(AWS_SECRET_ACCESS_KEY)
   bucket: "takatsu-travisci"
 
 notifications:
