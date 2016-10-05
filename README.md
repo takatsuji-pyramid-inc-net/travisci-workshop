@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/takatsuji-pyramid-inc-net/travisci-workshop.svg?branch=master)](https://travis-ci.org/takatsuji-pyramid-inc-net/travisci-workshop)
+
+
 # TravisCI勉強会
 
 ## ゴール
