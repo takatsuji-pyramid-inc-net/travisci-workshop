@@ -7,8 +7,10 @@ deploy:
   provider: s3
   access_key_id: ${AWS_ACCESS_KEY_ID}
   secret_access_key: ${AWS_SECRET_ACCESS_KEY}
-  bucket: "takatsu-travisci/${TRAVIS_BRANCH}"
+  bucket: "takatsu-travisci"
   skip_cleanup: true
+  on:
+    branches: ${TRAVIS_BRANCH}
 
 notifications:
   slack: travis-ci-takatsuji:lQnY4FuwYnhOPNh7egoZXbtb
